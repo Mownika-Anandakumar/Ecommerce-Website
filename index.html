@@ -1,0 +1,592 @@
+ <!--DOCTYPE html-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title=============================-->
+    <title>Ecommerce website using HTML, CSS, and JavaScript</title>
+    <!--==css===============================-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--==fav-icon==========================-->
+    <link rel="shortcut icon" href="images/fav-icon.png">
+    <!--==fontawesome=======================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--==poppins===========================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!--==main==========================-->
+    <section id="main">
+
+        <!--==header=============================-->
+        <header>
+
+            <!--**menu-btn*******-->
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+
+            <!--**header-top*****-->
+            <div class="header-top">
+                <label for="menu-btn" class="menu-icon">
+                    <span class="nav-icon"></span>
+                </label>
+
+                <div class="nav-location">
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> Store Locate</a>
+                </div>
+
+                <!--**logo***********-->
+                <a href="index.html" class="logo">
+                    <img alt="logo" src="images/logo.png" />
+                </a>
+
+                <!--**contact-btn****-->
+                <div class="nav-btns">
+                    <!--search-->
+                    <a href="javascript:void(0);" class="nav-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <!--user-->
+                    <a href="javascript:void(0);" class="nav-user">
+                        <i class="fa-regular fa-user"></i>
+                    </a>
+                    <!--cart-->
+                    <a href="#" class="nav-cart">
+                        <i class="fa-brands fa-opencart"></i>
+                        <span>0</span>
+                    </a>
+                </div>
+            </div>
+
+            <!--**nav************-->
+            <nav class="navigation">
+                <!--**menu***********-->
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#category">Category</a></li>
+                    <li><a href="#shopping-banner">Shop</a></li>
+                    <li>
+                        <a href="#popular-dress">Populer</a>
+                        <span class="nav-lable">Hot Offer</span>
+                    </li>
+                    <li><a href="#recent-products">Recent</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--==content============================-->
+        <div class="main-content">
+            <div class="main-content-text">
+                <strong>Collection</strong>
+                <h1>Fashion Should be Stylish and Fun</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos minus quis illum voluptates laboriosam
+                </p>
+                <a href="#">Shop Now</a>
+            </div>
+            <div class="main-content-img">
+                <img alt="model" src="images/model.png">
+            </div>
+        </div>
+
+    </section>
+
+    <!--==category======================-->
+    <section id="category">
+        <a href="#" class="category-box">
+            <div class="category-box-img">
+                <img alt="hand bag" src="images/c1.png">
+            </div>
+            <strong>Hand Bag</strong>
+        </a>
+        <a href="#" class="category-box">
+            <div class="category-box-img">
+                <img alt="T-Shirt" src="images/c2.png">
+            </div>
+            <strong>T-Shirt</strong>
+        </a>
+        <a href="#" class="category-box">
+            <div class="category-box-img">
+                <img alt="Sunglass" src="images/c3.png">
+            </div>
+            <strong>Sunglass</strong>
+        </a>
+        <a href="#" class="category-box">
+            <div class="category-box-img">
+                <img alt="Tops" src="images/c4.png">
+            </div>
+            <strong>Tops</strong>
+        </a>
+        <a href="#" class="category-box">
+            <div class="category-box-img">
+                <img alt="Shoes" src="images/c5.png">
+            </div>
+            <strong>Shoes</strong>
+        </a>
+        <a href="#" class="category-box">
+            <div class="category-box-img">
+                <img alt="Watch" src="images/c6.png">
+            </div>
+            <strong>Watch</strong>
+        </a>
+    </section>
+
+    <!--==popular-dress=================-->
+    <section id="popular-dress">
+        <h2>Popular Dresses</h2>
+        <div class="popular-dress-container">
+            <!--product-container-->
+            <div class="popular-product-container">
+ 
+                <!--product-box-->
+                <div class="product-box">
+                    <a href="#" class="product-box-img">
+                        <img alt="product" src="images/p1.webp">
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Black Top</a>
+                        <span>20$ <del>40$</del></span>
+                        <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                    </div>
+                </div>
+
+                <!--product-box-->
+                <div class="product-box">
+                    <a href="#" class="product-box-img">
+                        <img alt="product" src="images/p2.webp">
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Black Top</a>
+                        <span>20$ <del>40$</del></span>
+                        <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                    </div>
+                </div>
+
+                <!--product-box-->
+                <div class="product-box">
+                    <a href="#" class="product-box-img">
+                        <img alt="product" src="images/p3.webp">
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Black Top</a>
+                        <span>20$ <del>40$</del></span>
+                        <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                    </div>
+                </div>
+
+                <!--product-box-->
+                <div class="product-box">
+                    <a href="#" class="product-box-img">
+                        <img alt="product" src="images/p4.webp">
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Black Top</a>
+                        <span>20$ <del>40$</del></span>
+                        <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                    </div>
+                </div>
+
+                <!--product-box-->
+                <div class="product-box">
+                    <a href="#" class="product-box-img">
+                        <img alt="product" src="images/p5.webp">
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Black Top</a>
+                        <span>20$ <del>40$</del></span>
+                        <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                    </div>
+                </div>
+
+                <!--product-box-->
+                <div class="product-box">
+                    <a href="#" class="product-box-img">
+                        <img alt="product" src="images/p6.webp">
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Black Top</a>
+                        <span>20$ <del>40$</del></span>
+                        <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                    </div>
+                </div>
+
+            </div>
+            <!--banner-->
+            <div class="popular-banner">
+                <div class="popular-banner-text">
+                    <h3>Summer Dress Collection</h3>
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="popular-banner-img">
+                    <img alt="" src="images/bannrt.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==shopping-banner===============-->
+    <section id="shopping-banner">
+        <div class="shopping-banner-container">
+            <div class="shopping-banner-text">
+                <strong>Collection</strong>
+                <h3>Stylish Bag and Shoes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequuntur, obcaecati hic sunt nisi,
+                </p>
+                <a href="#">Shop Now</a>
+            </div>
+            <div class="shopping-banner-img">
+                <img alt="" src="images/shoes-bag.png">
+            </div>
+        </div>
+    </section>
+
+    <!--==recent-products===============-->
+    <section id="recent-products">
+        <h2>Recent Product</h2>
+        <div class="recent-product-container">
+            <!--product-box-->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img alt="product" src="images/p7.webp">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Black Top</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+            <!--product-box-->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img alt="product" src="images/p8.webp">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Black Top</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+            <!--product-box-->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img alt="product" src="images/p9.png">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Black Top</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+            <!--product-box-->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img alt="product" src="images/p10.webp">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Black Top</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--==Partnre-logo================================-->
+    <section id="partner">
+        <img alt="logo" src="images/logo-1.png">
+        <img alt="logo" src="images/logo-2.png">
+        <img alt="logo" src="images/logo-3.png">
+        <img alt="logo" src="images/logo-4.png">
+    </section>
+
+    <!--==shoes-bags-products===============-->
+    <section id="recent-products">
+        <h2>Shoes And Bags</h2>
+        <div class="recent-product-container">
+            <!--product-box-->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img alt="product" src="images/b1.png">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Lady Bags</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+            <!--product-box-->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img alt="product" src="images/b2.png">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Lady Bag</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+            <!--product-box-->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img alt="product" src="images/s1.png">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Lady Shoes</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+            <!--product-box-->
+            <div class="product-box">
+                <a href="#" class="product-box-img">
+                    <img alt="product" src="images/s2.png">
+                    <span>New</span>
+                </a>
+                <div class="product-box-text">
+                    <a href="#" class="product-text-title">Lady Sandal</a>
+                    <span>20$ <del>40$</del></span>
+                    <a href="#" class="product-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--==services========================-->
+    <section class="services">
+        <!--services-box-->
+        <div class="services-box">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Free Shipping</span>
+            <p>Free Shipping for all US order</p>
+        </div>
+        <!--services-box-->
+        <div class="services-box">
+            <i class="fas fa-headphones-alt"></i>
+            <span>Support 24/7</span>
+            <p>We support 24h a day</p>
+        </div>
+        <!--services-box-->
+        <div class="services-box">
+            <i class="fas fa-sync"></i>
+            <span>100% Money Back</span>
+            <p>You have 30 days to Return</p>
+        </div>
+
+    </section>
+
+    <!--==footer==========================-->
+    <footer>
+        <div class="footer-container">
+            <!--**comoany-box**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="index.html" class="footer-logo">
+                    <img alt="" src="images/logo.png">
+                </a>
+                <!--details-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quas neque repudiandae nihil.</p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Populer</a></li>
+                    <li><a href="#">Recent</a></li>
+                </ul>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>Social Link's</strong>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+            <!--**Subscribe***-->
+            <div class="footer-subscribe">
+                <strong>Subscribe Now</strong>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita quod id sed nemo. Haru.</p>
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Example@gmail.com" required />
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <!--**bottom**********************-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By Going-To Internet</span>
+            <span class="copyright">&#169; Copyright 2024 - Going-To Internet</span>
+        </div>
+    </footer>
+
+
+    <!--==search-bar======================-->
+    <div class="search-bar">
+
+        <!--search-input-->
+        <div class="search-input">
+            <input type="text" placeholder="Search For Product" name="search" />
+            <!--cancel-btn-->
+            <a href="javascript:void(0);" class="search-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+
+        </div>
+    </div>
+
+    <!--==login-and-sign-up===============-->
+    <div class="form">
+        <!--login-->
+        <div class="login-form">
+            <!--cancel-btn-->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <strong>Log In</strong>
+            <!--inputs-->
+            <form>
+                <input type="email" name="email" placeholder="Example@gmail.com" required />
+                <input type="password" name="password" placeholder="Password" required />
+                <input type="submit" value="Log In" />
+            </form>
+            <!--forget-and-sign-up-btn-->
+            <div class="form-btns">
+                <a href="#" class="forget">Forget Your Password?</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+            </div>
+        </div>
+
+        <!--Sign-up-->
+        <div class="sign-up-form">
+            <!--cancel-btn-->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <strong>Sign Up</strong>
+            <!--inputs-->
+            <form>
+                <input type="text" name="fullname" placeholder="Full Name" required />
+                <input type="email" name="email" placeholder="Example@gmail.com" required />
+                <input type="password" name="password" placeholder="Password" required />
+                <input type="submit" value="Sign Up" />
+            </form>
+            <!--forget-and-sign-up-btn-->
+            <div class="form-btns">
+                <a href="javascript:void(0);" class="already-account">
+                    Already Have Account?</a>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--==script==========================-->
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function () {
+        
+            //==for search=====================================//
+            document.addEventListener('click', function (event) {
+                if (event.target.closest('.nav-search')) {
+                    document.querySelector('.search-bar').classList.add('search-bar-active');
+                } else if (event.target.closest('.search-cancel')) {
+                    document.querySelector('.search-bar').classList.remove('search-bar-active');
+                }
+            });
+
+            // ==For Login and Sign-up========================//
+            document.addEventListener('click', function (event) {
+                // Check if the clicked element has the class 'user' or 'already-account'
+                if (event.target.closest('.nav-user, .already-account')) {
+                    const formElement = document.querySelector('.form');
+                    formElement.classList.add('login-active');
+                    formElement.classList.remove('sign-up-active');
+                }
+
+                // Check if the clicked element has the class 'sign-up-btn'
+                else if (event.target.closest('.sign-up-btn')) {
+                    const formElement = document.querySelector('.form');
+                    formElement.classList.add('sign-up-active');
+                    formElement.classList.remove('login-active');
+                }
+
+                // Check if the clicked element has the class 'form-cancel'
+                else if (event.target.closest('.form-cancel')) {
+                    const formElement = document.querySelector('.form');
+                    formElement.classList.remove('login-active');
+                    formElement.classList.remove('sign-up-active');
+                }
+            });
+
+            //==for fix header===========================//
+            const header = document.querySelector('header');
+            let lastScrollY = window.scrollY; // Store the last scroll position
+
+            window.addEventListener('scroll', function () {
+                const currentScrollY = window.scrollY;
+
+                // Check if at the top
+                if (currentScrollY === 0) {
+                    header.classList.remove('header-fix');
+                } else if (currentScrollY < lastScrollY) {
+                    // Scrolling up
+                    header.classList.add('header-fix');
+                } else {
+                    header.classList.remove('header-fix');
+                }
+
+                // Update the last scroll position
+                lastScrollY = currentScrollY;
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
